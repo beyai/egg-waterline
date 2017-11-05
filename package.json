@@ -1,0 +1,44 @@
+{
+  "name": "egg-waterline",
+  "version": "0.1.0",
+  "description": "egg waterline plugin",
+  "eggPlugin": {
+    "name": "waterline",
+    "dependencies": [ "waterline" , "sails-mongo" , "sails-mysql" ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-waterline",
+    "mongodb",
+    "mysql",
+    "orm"
+  ],
+  "dependencies": {
+    "sails-mongo": "^0.12.2",
+    "sails-mysql": "^0.11.5",
+    "waterline": "^0.11.12"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "autod-egg": "^1.0.0",
+    "egg": "^1.4.0",
+    "egg-bin": "^3.4.0",
+    "egg-ci": "^1.6.0",
+    "egg-mock": "^3.7.0",
+    "eslint": "^3.19.0",
+    "eslint-config-egg": "^4.2.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beyai/egg-waterline"
+  },
+  "author": "chandre",
+  "license": "MIT"
+}
