@@ -100,7 +100,7 @@ module.exports = app => {
     class HomeController extends app.Controller {
         
         async index ( ctx ) {
-            let res = await app.model.user.find({
+            let res = await app.model.User.find({
                 id : 1
             });
             ctx.body = res;
