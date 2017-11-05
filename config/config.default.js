@@ -14,5 +14,5 @@ exports.waterline = {
       port: 27017,
 		    database: 'test',
     },
-  },
+  }
 };

@@ -1,10 +1,9 @@
 {
   "name": "egg-waterline",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "egg waterline plugin",
   "eggPlugin": {
-    "name": "waterline",
-    "dependencies": [ "waterline" , "sails-mongo" , "sails-mysql" ]
+    "name": "waterline"
   },
   "keywords": [
     "egg",
