@@ -45,6 +45,15 @@ exports.waterline = {
 ```js
 // {app_root}/config/config.default.js
 exports.waterline = {
+	mount: 'model', // 模型目录
+	db: { // 数据库配置，内部支持 mongodb , mysql
+		default: {
+		adapter: 'mongodb', // 数据库 mongodb | mysql
+		host: 'localhost',
+		port: 27017,
+		    database: 'test',
+		}
+	},
 };
 ```
 
