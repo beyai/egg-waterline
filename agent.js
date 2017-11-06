@@ -2,5 +2,5 @@
 const WaterLine = require('./lib/waterline.js');
 
 module.exports = app => {
-	if (app.config.waterline.app) WaterLine(app);
+	if (app.config.waterline.agent) WaterLine(app);
 };
