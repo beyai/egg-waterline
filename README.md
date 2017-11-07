@@ -50,7 +50,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## 文档 API
 
-详细文档请查看 https://sailsjs.com/documentation/concepts/models-and-orm
+详细文档请查看 https://github.com/balderdashy/waterline-docs
 
 ## Example
 
