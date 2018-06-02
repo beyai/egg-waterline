@@ -1,6 +1,6 @@
 {
   "name": "egg-waterline",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "egg waterline plugin",
   "eggPlugin": {
     "name": "waterline"
