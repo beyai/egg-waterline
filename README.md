@@ -64,10 +64,10 @@ module.exports = app => {
         tableName : "user_table", //表名
         connection : "default", //使用的数据库名称
         schema : true,
+        primaryKey: 'id',
         attributes : {
             id : {
-                type : "objectid",
-                primaryKey: true
+                type : "string"
             },
             name : {
                 type : "string",
