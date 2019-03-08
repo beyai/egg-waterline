@@ -1,6 +1,6 @@
 {
   "name": "egg-waterline",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "egg waterline plugin",
   "eggPlugin": {
     "name": "waterline"
@@ -15,9 +15,7 @@
     "orm"
   ],
   "dependencies": {
-    "sails-mongo": "^1.0.1",
-    "sails-mysql": "^1.0.0",
-    "waterline": "^0.13.4"
+    "waterline": "^0.13.6"
   },
   "devDependencies": {
     "autod": "^2.8.0",
